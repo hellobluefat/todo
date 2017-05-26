@@ -1,0 +1,28 @@
+body{
+  background: #6f9436;
+  margin: 0;
+}
+.main{
+  background: #fff;
+  width: 567px;
+  height: 628px;
+  margin: 200px auto;
+  border-radius:  0 2px 2px 4px;
+}
+.header{
+  /*border: 1px solid red;*/
+  line-height: 128px;
+  font-size: 36px;
+  font-family: 'Arial Rounded MT Bold';
+  text-align: center;
+  background: #999;
+}
+.todo-list{
+  height: 280px;
+}
+.form{
+  height: 110px;
+}
+.action{
+  height: 110px;
+}
