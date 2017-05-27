@@ -7,6 +7,8 @@ export default class TodoList extends React.Component{
           <ul>
             <li>TODO</li>
             <li>TODO</li>
+            <li className="completed">TODO</li>
+            <li>TODO</li>
             <li>TODO</li>
 
           </ul>

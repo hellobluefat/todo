@@ -49,3 +49,60 @@ ul,li{
 .action{
   height: 110px;
 }
+.todo-list li.completed{
+  color:#989191;
+  text-decoration: line-through;
+  position: relative;
+}
+.todo-list li.completed:after{
+  content:' ';
+  position: absolute;
+  right:0;
+  top:15px;
+  background-image: url('/img/right.svg');
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+
+}
+form{
+  display: block;
+  margin: 0 auto;
+  width: 328px;
+  position: relative;
+}
+.text{
+  width: 280px;
+  line-height: 20px;
+  position: absolute;
+  top:20px;
+}
+.submit{
+  background:url('/img/加号.svg') no-repeat center center;
+  background-size: 100% 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right:0;
+}
+.action-box{
+  width: 220px;
+  height: 50px;
+  margin:0 auto;
+}
+.list{
+  background: url('/img/all.svg') no-repeat center center;
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.action-box>.completed{
+  background: url('/img/right-b.svg') no-repeat center center;
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  float:right;
+}
