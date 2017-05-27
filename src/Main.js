@@ -1,5 +1,8 @@
 import React from 'react'
-
+import Header from './Header.js'
+import TodoList from './TodoList.js'
+import Form from './Form.js'
+import Action from './Action.js'
 export default class Main extends React.Component{
   render(){
     return(
@@ -8,42 +11,6 @@ export default class Main extends React.Component{
         <TodoList/>
         <Form/>
         <Action/>
-      </div>
-    )
-  }
-}
-class Header extends React.Component{
-  render(){
-    return(
-      <div className="header">
-        TODO
-      </div>
-    )
-  }
-}
-class TodoList extends React.Component{
-  render(){
-    return(
-      <div className="todo-list">
-
-      </div>
-    )
-  }
-}
-class Form extends React.Component{
-  render(){
-    return(
-      <div className="form">
-
-      </div>
-    )
-  }
-}
-class Action extends React.Component{
-  render(){
-    return(
-      <div className="action">
-
       </div>
     )
   }

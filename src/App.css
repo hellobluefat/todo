@@ -1,6 +1,17 @@
 body{
   background: #6f9436;
   margin: 0;
+  overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul,li{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .main{
   background: #fff;
@@ -20,6 +31,18 @@ body{
 .todo-list{
   height: 280px;
 }
+.todo-list .container {
+  margin: 20px 120px;
+  border: 1px solid green;
+  height: 240px;
+  overflow: auto;
+}
+
+.todo-list li {
+  line-height: 60px;
+  font-size: 24px;
+}
+
 .form{
   height: 110px;
 }
