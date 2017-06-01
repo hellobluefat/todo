@@ -1,6 +1,10 @@
 {
-  "main.css": "static/css/main.0ccbbad9.css",
-  "main.css.map": "static/css/main.0ccbbad9.css.map",
+  "main.css": "static/css/main.86b4b15d.css",
+  "main.css.map": "static/css/main.86b4b15d.css.map",
   "main.js": "static/js/main.f40e7b53.js",
-  "main.js.map": "static/js/main.f40e7b53.js.map"
+  "main.js.map": "static/js/main.f40e7b53.js.map",
+  "static/media/all.svg": "static/media/all.d164ac9b.svg",
+  "static/media/right-b.svg": "static/media/right-b.72becd9c.svg",
+  "static/media/right.svg": "static/media/right.05f4b8cf.svg",
+  "static/media/加号.svg": "static/media/加号.a110338c.svg"
 }
